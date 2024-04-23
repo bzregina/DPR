@@ -4,8 +4,12 @@ author: "World Economic Forum"
 date: "2021-01-11"
 output: 
   html_document: 
-    toc: true
     number_sections: true
+    toc: true
+    fig_caption: true
+bibliography: ./chapter4/References.bib
+biblio-style: apa
+citation_package: biblatex
 ---
 
 ```{r setup, include=FALSE}
@@ -47,4 +51,6 @@ The following section provides an overview of selected economies;
 - **Japan** ranks *sixth* overall, down one notch over 2018.
 
 # Conclusion
-The Global Competitiveness Index identifies and assesses the factors that underpin the process of economic growth and human development. It highlights the necessity of addressing the spillover effects and externalities, positive and negative, intended or unintended, of a policy or strategy beyond the direct objective it pursues. The GCI encourages the application of systems thinking, an approach that leaders must adopt in order to apprehend and address today’s complex global challenges. By conceiving of the economy as one of many interacting and interdependent parts that belong to a vast system, policy-makers have an opportunity to develop holistic solutions and strategies.
+The Global Competitiveness Index identifies and assesses the factors that underpin the process of economic growth and human development. It highlights the necessity of addressing the spillover effects and externalities, positive and negative, intended or unintended, of a policy or strategy beyond the direct objective it pursues. The GCI encourages the application of systems thinking, an approach that leaders must adopt in order to apprehend and address today’s complex global challenges. By conceiving of the economy as one of many interacting and interdependent parts that belong to a vast system, policy-makers have an opportunity to develop holistic solutions and strategies.[@schwab_global_2019]
+
+# References
